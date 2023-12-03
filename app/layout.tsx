@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en" data-theme="light">
       <body className="font-inconsolata bg-neutral">
         <Navbar />
-        {children}
+        <section className="min-h-[calc(100vh-112px)]">{children}</section>
         <Footer />
       </body>
     </html>
