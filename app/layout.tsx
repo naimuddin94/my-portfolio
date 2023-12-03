@@ -14,10 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="light">
-      <body className="font-roboto bg-neutral">
+      <body className="font-inconsolata bg-neutral">
         <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

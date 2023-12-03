@@ -16,7 +16,7 @@ const config: Config = {
         cream: "#F9F5F6",
       },
       fontFamily: {
-        roboto: ["'Roboto', sans-serif"],
+        inconsolata: ["'Inconsolata', monospace"],
       },
     },
   },
